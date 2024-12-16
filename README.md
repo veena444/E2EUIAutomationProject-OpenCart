@@ -3,8 +3,7 @@
 This project demonstrates and end-to-end UI test automation framework for testing the Open Cart e-commerce application. The framework is implemented using Selenium 4.x, Java, & TestNG. It is designed for
 robust and scalable automated testing of web applications.
 
-
-
+##
 
 
 

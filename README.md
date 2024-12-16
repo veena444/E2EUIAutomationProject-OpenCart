@@ -111,6 +111,42 @@ mvn clean install
 
 
 
+**Running Tests:**
+
+###Local Execution:
+
+1.Update the testng.xml file to specify test configurations.
+
+2.Run tests using maven:
+
+mvn test
+
+
+###Parallel Execution:
+
+Enable parallel execution in the testng.xml file under <suite> tag:
+
+<suite name="TestSuite" parallel="tests" thread-count="4">
+
+
+###CI/CD Integration:
+
+1.Configure Jenkins with this project.
+
+2.Add a Jenkins pipeline for executing tests.
+
+3.Ensure Docker & Selenoid are installed on the CI server for distributed testing.
+
+
+
+**Reporting:**
+
+ExtentReports: HTML-based reports for detailed test execution results.
+
+Allure Reports: Graphical and interactive reports for better analysis.
+
+Screenshots: Automatically attached to reports for failed test cases.
+
 
 
     

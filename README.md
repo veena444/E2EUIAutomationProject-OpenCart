@@ -3,11 +3,8 @@
 This project demonstrates and end-to-end UI test automation framework for testing the Open Cart e-commerce application. The framework is implemented using Selenium 4.x, Java, & TestNG. It is designed for
 robust and scalable automated testing of web applications.
 
-## Heading 1
 
-
-
-**Features:**
+## **Features:**
 
 ***Page Object Model (POM):** Clean separation of test scripts and page objects for better maintainability.
 
@@ -35,11 +32,7 @@ robust and scalable automated testing of web applications.
 
 
 
-## Heading 2
-
-
-
-**Tech Stack:**
+##**Tech Stack:**
 
 1.IDE - Eclipse
 
@@ -64,11 +57,11 @@ robust and scalable automated testing of web applications.
 11.AWS Cloud to run the test cases on cloud
 
 
-## Heading 3
+
 
     
 
-**Infrastructure Setup:**
+##**Infrastructure Setup:**
 
 
 **Selenium Grid and Selenoid Integration:**
@@ -80,10 +73,10 @@ robust and scalable automated testing of web applications.
 ***Auto-Scaling:** Automatically scales based on test load.
 
 
-## Heading 4
 
 
-**Prerequisites:**
+
+##**Prerequisites:**
 
 1.**Java JDK 11 or higher**
 
@@ -98,10 +91,10 @@ robust and scalable automated testing of web applications.
 6.**Browsers: Chrome, Firefox, Edge**
 
 
-## Heading 5
 
 
-**Installation and Setup:**
+
+##**Installation and Setup:**
 
 
 1.**Clone the repository:**
@@ -117,10 +110,10 @@ cd E2EUIAutomationProject-OpenCart
 mvn clean install
 
 
-## Heading 6
 
 
-**Running Tests:**
+
+##**Running Tests:**
 
 
 **Local Execution:**
@@ -150,10 +143,10 @@ Enable parallel execution in the testng.xml file under <suite> tag:
 
 3.Ensure Docker & Selenoid are installed on the CI server for distributed testing.
 
-## Heading 7
 
 
-**Reporting:**
+
+##**Reporting:**
 
 **ExtentReports:** HTML-based reports for detailed test execution results.
 

@@ -1,7 +1,7 @@
 #Project Title: End to end UI Automation Framework for Open Cart application.
 
 
-#Motivation: 
+#Installation:
 
 
 #Build Status:
@@ -15,6 +15,14 @@
 
     *Build Tool : Maven
 
+    *Reporting: Extent & Allure reports
+
+    *Logging: Log4j2
+
+    *Framework: TestNG
+
+    
+
 
 
 
@@ -27,4 +35,9 @@ This is a sample project to showcase automation framework using latest technolog
 
 
 #How to use:
+
+#Selenium Grid:
+
+#Jenkins:
+
 

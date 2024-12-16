@@ -5,6 +5,9 @@ robust and scalable automated testing of web applications.
 
 
 
+
+
+
 #Features:
 
 *Page Object Model (POM): Clean separation of test scripts and page objects for better maintainability.
@@ -31,6 +34,27 @@ robust and scalable automated testing of web applications.
 
 
 
+
+
+
+#Tech Stack:
+
+    *IDE: Eclipse
+
+    *Language: Java
+
+    *Build Tool : Maven
+
+    *Reporting: Extent & Allure reports
+
+    *Logging: Log4j2
+
+    *Framework: TestNG
+
+
+
+
+    
 
 #Infrastructure Setup:
 
@@ -78,19 +102,7 @@ mvn clean install
 
 
 
-#Tech Stack:
 
-    *IDE: Eclipse
-
-    *Language: Java
-
-    *Build Tool : Maven
-
-    *Reporting: Extent & Allure reports
-
-    *Logging: Log4j2
-
-    *Framework: TestNG
 
     
 

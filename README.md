@@ -3,7 +3,7 @@
 This project demonstrates and end-to-end UI test automation framework for testing the Open Cart e-commerce application. The framework is implemented using Selenium 4.x, Java, & TestNG. It is designed for
 robust and scalable automated testing of web applications.
 
-##
+## Heading 1
 
 
 
@@ -35,7 +35,7 @@ robust and scalable automated testing of web applications.
 
 
 
-##
+## Heading 2
 
 
 
@@ -64,7 +64,7 @@ robust and scalable automated testing of web applications.
 11.AWS Cloud to run the test cases on cloud
 
 
-##
+## Heading 3
 
     
 
@@ -79,7 +79,8 @@ robust and scalable automated testing of web applications.
 
 ***Auto-Scaling:** Automatically scales based on test load.
 
-##
+
+## Heading 4
 
 
 **Prerequisites:**
@@ -96,7 +97,8 @@ robust and scalable automated testing of web applications.
 
 6.**Browsers: Chrome, Firefox, Edge**
 
-##
+
+## Heading 5
 
 
 **Installation and Setup:**
@@ -114,11 +116,12 @@ cd E2EUIAutomationProject-OpenCart
 
 mvn clean install
 
-##
+
+## Heading 6
 
 
 **Running Tests:**
-##
+
 
 **Local Execution:**
 
@@ -128,7 +131,7 @@ mvn clean install
 
 mvn test
 
-##
+
 
 **Parallel Execution:**
 
@@ -136,7 +139,7 @@ Enable parallel execution in the testng.xml file under <suite> tag:
 
 <suite name="TestSuite" parallel="tests" thread-count="4">
 
-##
+
 
 
 **CI/CD Integration:**
@@ -147,7 +150,7 @@ Enable parallel execution in the testng.xml file under <suite> tag:
 
 3.Ensure Docker & Selenoid are installed on the CI server for distributed testing.
 
-##
+## Heading 7
 
 
 **Reporting:**

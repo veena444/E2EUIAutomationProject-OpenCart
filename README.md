@@ -32,6 +32,8 @@ robust and scalable automated testing of web applications.
 
 ***Integration with CI/CD:** Configured for Jenkins to enable continuous testing.
 
+***Comprehensive Logging:** Implements Log4j2 for customizable & detailed logging at various levels.
+
 
 
 
@@ -146,6 +148,8 @@ Enable parallel execution in the testng.xml file under <suite> tag:
 **Allure Reports:** Graphical and interactive reports for better analysis.
 
 **Screenshots:** Automatically attached to reports for failed test cases.
+
+**Log4j2 Logs:** Captures detailed logs for each test execution.
 
 
 

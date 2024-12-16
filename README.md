@@ -4,6 +4,7 @@ This project demonstrates and end-to-end UI test automation framework for testin
 robust and scalable automated testing of web applications.
 
 
+
 #Features:
 
 *Page Object Model (POM): Clean separation of test scripts and page objects for better maintainability.
@@ -29,15 +30,52 @@ robust and scalable automated testing of web applications.
 *Integration with CI/CD: Configured for Jenkins to enable continuous testing.
 
 
+
+
 #Infrastructure Setup:
+
 
 Selenium Grid and Selenoid Integration:
 
-Distributed Testing: Implements 
-#Installation:
+*Distributed Testing: Implements Selenium Grid & Selenoid for executing test across multiple nodes.
+
+*Dockerized Environment: Uses Docker containers for browser nodes.
+
+*Auto-Scaling: Automatically scales based on test load.
 
 
-#Build Status:
+
+#Prerequisites:
+
+1.Java JDK 11 or higher.
+
+2.Maven
+
+3.Selenium WebDriver
+
+4.TestNG
+
+5.Docker(for Selenium Grid and Selenoid Setup)
+
+6.Browsers: Chrome, Firefox, Edge
+
+
+
+#Installation and Setup:
+
+
+1.Clone the repository:
+
+git clone https://github.com/veena444/E2EUIAutomationProject-OpenCart.git
+
+2.Navigate to the project directory:
+
+cd E2EUIAutomationProject-OpenCart
+
+3.Install dependencies using Maven:
+
+mvn clean install
+
 
 
 #Tech Stack:
@@ -59,18 +97,9 @@ Distributed Testing: Implements
 
 
 
-#Features:
-
-This is a sample project to showcase automation framework using latest technologies.
 
 
-#Installation:
 
 
-#How to use:
-
-#Selenium Grid:
-
-#Jenkins:
 
 

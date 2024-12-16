@@ -35,6 +35,7 @@ robust and scalable automated testing of web applications.
 
 
 
+##
 
 
 
@@ -63,6 +64,7 @@ robust and scalable automated testing of web applications.
 11.AWS Cloud to run the test cases on cloud
 
 
+##
 
     
 
@@ -77,6 +79,7 @@ robust and scalable automated testing of web applications.
 
 ***Auto-Scaling:** Automatically scales based on test load.
 
+##
 
 
 **Prerequisites:**
@@ -93,6 +96,7 @@ robust and scalable automated testing of web applications.
 
 6.**Browsers: Chrome, Firefox, Edge**
 
+##
 
 
 **Installation and Setup:**
@@ -110,9 +114,11 @@ cd E2EUIAutomationProject-OpenCart
 
 mvn clean install
 
+##
 
 
 **Running Tests:**
+##
 
 **Local Execution:**
 
@@ -122,12 +128,14 @@ mvn clean install
 
 mvn test
 
+##
 
 **Parallel Execution:**
 
 Enable parallel execution in the testng.xml file under <suite> tag:
 
 <suite name="TestSuite" parallel="tests" thread-count="4">
+##
 
 
 **CI/CD Integration:**
@@ -138,6 +146,7 @@ Enable parallel execution in the testng.xml file under <suite> tag:
 
 3.Ensure Docker & Selenoid are installed on the CI server for distributed testing.
 
+##
 
 
 **Reporting:**

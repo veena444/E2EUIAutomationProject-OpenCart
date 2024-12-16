@@ -70,27 +70,27 @@ robust and scalable automated testing of web applications.
 
 **Selenium Grid and Selenoid Integration:**
 
-*Distributed Testing: Implements Selenium Grid & Selenoid for executing test across multiple nodes.
+***Distributed Testing:** Implements Selenium Grid & Selenoid for executing test across multiple nodes.
 
-*Dockerized Environment: Uses Docker containers for browser nodes.
+***Dockerized Environment:** Uses Docker containers for browser nodes.
 
-*Auto-Scaling: Automatically scales based on test load.
+***Auto-Scaling:** Automatically scales based on test load.
 
 
 
 **Prerequisites:**
 
-1.Java JDK 11 or higher.
+1.**Java JDK 11 or higher**
 
-2.Maven
+2.**Maven**
 
-3.Selenium WebDriver
+3.**Selenium WebDriver**
 
-4.TestNG
+4.**TestNG**
 
-5.Docker(for Selenium Grid and Selenoid Setup)
+5.**Docker(for Selenium Grid and Selenoid Setup)**
 
-6.Browsers: Chrome, Firefox, Edge
+6.**Browsers: Chrome, Firefox, Edge**
 
 
 
@@ -141,11 +141,11 @@ Enable parallel execution in the testng.xml file under <suite> tag:
 
 **Reporting:**
 
-ExtentReports: HTML-based reports for detailed test execution results.
+**ExtentReports:** HTML-based reports for detailed test execution results.
 
-Allure Reports: Graphical and interactive reports for better analysis.
+**Allure Reports:** Graphical and interactive reports for better analysis.
 
-Screenshots: Automatically attached to reports for failed test cases.
+**Screenshots:** Automatically attached to reports for failed test cases.
 
 
 

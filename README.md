@@ -68,7 +68,7 @@ robust and scalable automated testing of web applications.
 **Infrastructure Setup:**
 
 
-Selenium Grid and Selenoid Integration:
+**Selenium Grid and Selenoid Integration:**
 
 *Distributed Testing: Implements Selenium Grid & Selenoid for executing test across multiple nodes.
 
@@ -97,15 +97,15 @@ Selenium Grid and Selenoid Integration:
 **Installation and Setup:**
 
 
-1.Clone the repository:
+1.**Clone the repository:**
 
 git clone https://github.com/veena444/E2EUIAutomationProject-OpenCart.git
 
-2.Navigate to the project directory:
+2.**Navigate to the project directory:**
 
 cd E2EUIAutomationProject-OpenCart
 
-3.Install dependencies using Maven:
+3.**Install dependencies using Maven:**
 
 mvn clean install
 
@@ -113,7 +113,7 @@ mvn clean install
 
 **Running Tests:**
 
-###Local Execution:
+**Local Execution:**
 
 1.Update the testng.xml file to specify test configurations.
 
@@ -122,14 +122,14 @@ mvn clean install
 mvn test
 
 
-###Parallel Execution:
+**Parallel Execution:**
 
 Enable parallel execution in the testng.xml file under <suite> tag:
 
 <suite name="TestSuite" parallel="tests" thread-count="4">
 
 
-###CI/CD Integration:
+**CI/CD Integration:**
 
 1.Configure Jenkins with this project.
 

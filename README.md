@@ -1,4 +1,4 @@
-#Project Overview: 
+**Project Overview:** 
 
 This project demonstrates and end-to-end UI test automation framework for testing the Open Cart e-commerce application. The framework is implemented using Selenium 4.x, Java, & TestNG. It is designed for
 robust and scalable automated testing of web applications.
@@ -8,7 +8,7 @@ robust and scalable automated testing of web applications.
 
 
 
-#Features:
+**Features:**
 
 *Page Object Model (POM): Clean separation of test scripts and page objects for better maintainability.
 
@@ -37,7 +37,7 @@ robust and scalable automated testing of web applications.
 
 
 
-#Tech Stack:
+**Tech Stack:**
 
 1.IDE - Eclipse
 
@@ -65,7 +65,7 @@ robust and scalable automated testing of web applications.
 
     
 
-#Infrastructure Setup:
+**Infrastructure Setup:**
 
 
 Selenium Grid and Selenoid Integration:
@@ -78,7 +78,7 @@ Selenium Grid and Selenoid Integration:
 
 
 
-#Prerequisites:
+**Prerequisites:**
 
 1.Java JDK 11 or higher.
 
@@ -94,7 +94,7 @@ Selenium Grid and Selenoid Integration:
 
 
 
-#Installation and Setup:
+**Installation and Setup:**
 
 
 1.Clone the repository:

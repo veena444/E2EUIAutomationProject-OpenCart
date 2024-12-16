@@ -1,4 +1,4 @@
-**Project Overview:** 
+## **Project Overview:** 
 
 This project demonstrates and end-to-end UI test automation framework for testing the Open Cart e-commerce application. The framework is implemented using Selenium 4.x, Java, & TestNG. It is designed for
 robust and scalable automated testing of web applications.
@@ -32,7 +32,7 @@ robust and scalable automated testing of web applications.
 
 
 
-##**Tech Stack:**
+## **Tech Stack:**
 
 1.IDE - Eclipse
 
@@ -56,12 +56,9 @@ robust and scalable automated testing of web applications.
 
 11.AWS Cloud to run the test cases on cloud
 
+   
 
-
-
-    
-
-##**Infrastructure Setup:**
+## **Infrastructure Setup:**
 
 
 **Selenium Grid and Selenoid Integration:**
@@ -74,9 +71,7 @@ robust and scalable automated testing of web applications.
 
 
 
-
-
-##**Prerequisites:**
+## **Prerequisites:**
 
 1.**Java JDK 11 or higher**
 
@@ -92,9 +87,7 @@ robust and scalable automated testing of web applications.
 
 
 
-
-
-##**Installation and Setup:**
+## **Installation and Setup:**
 
 
 1.**Clone the repository:**
@@ -111,9 +104,7 @@ mvn clean install
 
 
 
-
-
-##**Running Tests:**
+## **Running Tests:**
 
 
 **Local Execution:**
@@ -134,7 +125,6 @@ Enable parallel execution in the testng.xml file under <suite> tag:
 
 
 
-
 **CI/CD Integration:**
 
 1.Configure Jenkins with this project.
@@ -145,8 +135,7 @@ Enable parallel execution in the testng.xml file under <suite> tag:
 
 
 
-
-##**Reporting:**
+## **Reporting:**
 
 **ExtentReports:** HTML-based reports for detailed test execution results.
 

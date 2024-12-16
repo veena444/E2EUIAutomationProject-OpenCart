@@ -135,6 +135,7 @@ mvn test
 Enable parallel execution in the testng.xml file under <suite> tag:
 
 <suite name="TestSuite" parallel="tests" thread-count="4">
+
 ##
 
 
